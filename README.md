@@ -7,6 +7,7 @@ VRDL HW2 0716228
 ===
 
 
+
 ## Table of Contents
 
 [TOC]
@@ -17,7 +18,16 @@ VRDL HW2 0716228
 2. open inference.ipynb in  google colab 
 3. run all cell and download answer.json in mmdection file 
 
-## Pretrained model
-[link](https://drive.google.com/file/d/194rkB5HVFa98JMhbhlRdzmnuf-Aw68-L/view?usp=sharing)
+## How to train the model
+1.  git clone this project
+2.  Download train dataset  from [here](https://drive.google.com/drive/folders/1aRWnNvirWHXXXpPPfcWlHQuzGJdXagoc) and unzip it 
+3.  `pip install -r requirements.txt`
+4.  `python train.py --epoch 7 --batch-size 6`
+5.  `model.pt` is your model
+
+## Pretrained model link
+[link](https://drive.google.com/file/d/1BjEphetc2ymWuciXDHNZJKPAmIAbwIRl/view?usp=sharing)
+
+#### only `inference.ipynb` and `train.py` were wirtten by me, so others don't follow PEP8
 
 ###### tags: `VRDL` `Faster Rcnn`
